@@ -46,7 +46,60 @@ body {
     transition: 0.3s;
 }
 
-.menu__link:hover{
+.menu__link:hover {
     color: #0A775F;
 }
 
+.banner {
+    background: #F3D7B7;
+}
+
+.banner__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner__images {
+    position: relative;
+}
+
+.banner__logo-img {
+    position: absolute;
+    top: -90px;
+    left: -90px;
+}
+
+.banner__title {
+    color: #000;
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.banner__p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 464px;
+    margin-top: 24px;
+}
+
+.banner__btn {
+    margin-top: 34px;
+    background: #0A775F;
+    color: white;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.banner__btn:hover{
+    transform: scale(1.1);
+}
