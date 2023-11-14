@@ -471,3 +471,22 @@ body {
     bottom: 70px;
 }
 
+.banner__images-index{
+    height: 696px;
+}
+
+.banner__images-about{
+    height: 596px;
+}
+
+.banner__images-plan{
+    height: 596px;
+}
+
+.workPlan{
+    margin-top: 20px;
+}
+
+.work__plan{
+    margin-bottom: 0;
+}
