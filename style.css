@@ -348,6 +348,7 @@ body {
     background: #F8F8F2;
     margin-top: 20px;
     padding: 160px 0 200px 0;
+    position: relative;
 }
 
 .commitment__wrap {
@@ -373,3 +374,49 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
+
+.commitment__img{
+    margin-left: 35px;
+}
+
+.commitment-img{
+    position: absolute;
+    left: -30px;
+    top: 0;
+}
+
+.quality {
+    background: #C99B67;
+    margin: 160px 0 20px 0;
+    padding: 100px 0 118px 0;
+    position: relative;
+}
+
+.quality__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quality__h {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    max-width: 397px;
+    margin-bottom: 24px;
+}
+
+.quality__p {
+    max-width: 639px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.quality__img{
+    position: absolute;
+    right: 30px;
+    top: -80px;
+}
+
