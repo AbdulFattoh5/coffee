@@ -466,27 +466,161 @@ body {
     line-height: 28px;
 }
 
-.country__item-desc{
+.country__item-desc {
     position: relative;
     bottom: 70px;
 }
 
-.banner__images-index{
+.banner__images-index {
     height: 696px;
 }
 
-.banner__images-about{
+.banner__images-about {
     height: 596px;
 }
 
-.banner__images-plan{
+.banner__images-plan {
     height: 596px;
 }
 
-.workPlan{
+.workPlan {
     margin-top: 20px;
 }
 
-.work__plan{
+.work__plan {
     margin-bottom: 0;
+}
+
+.Accordion {
+    padding: 50px 0;
+    background: #F8F8F2;
+    position: relative;
+}
+
+.accordion__box {
+    position: relative;
+    margin: 10px 20px;
+    max-width: 660px;
+}
+
+.label {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.accordion{
+    max-width: 660px;
+}
+
+.content {
+    position: relative;
+    background: white;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 208px);
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.content__box {
+    padding: 30px 12px 0 16px;
+    height: 220px;
+    color: #333;
+}
+
+.content__box:nth-child(1) {
+    background: #c4d9cc;
+}
+
+.content__box:nth-child(2) {
+    background: #0a775f;
+    color: white !important;
+}
+
+.content__box:nth-child(3) {
+    background: #c7dcd2;
+}
+
+.content__box-h {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.content__box-p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.accordion__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion__section-item {
+    color: #555;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.accordion__form {
+    background: #C99B67;
+    padding: 40px 20px;
+    margin: 50px 0 20px 0;
+}
+
+.accordion__form-p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.accordion__form-h {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.accordion__black {
+    color: #333333;
+}
+
+.accordion__btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 100px;
+    background: #0A775F;
+    padding: 16px 24px;
+    cursor: pointer;
+    border: none;
+    margin-left: auto;
+    display: block;
+}
+
+.accordion__right{
+    position: absolute;
+    right: 0;
+}
+
+.accordion__left{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
 }
