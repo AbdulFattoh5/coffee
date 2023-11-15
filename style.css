@@ -533,6 +533,12 @@ body {
     margin-top: 20px;
 }
 
+.content::-webkit-scrollbar {
+    display: none;
+    height: 0;
+    width: 0;
+}
+
 .content__box {
     padding: 30px 12px 0 16px;
     height: 220px;
