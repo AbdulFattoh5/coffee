@@ -14,3 +14,24 @@ for (let i = 0; i < accordion.length; i++) {
         }
     });
 }
+
+// summary
+let overlay = document.querySelector('.summary__overlay')
+const mainBtn = document.querySelector('.accordion__btn'),
+summary = document.querySelector('.summary'),
+indexBtn = document.querySelector('.summary__btn');
+
+mainBtn.addEventListener('click', function () {
+    summary.style.display = 'block'
+    overlay.style.display = 'block'
+})
+
+overlay.addEventListener('click', function () {
+    overlay.style.display = 'none'
+    summary.style.display = 'none'
+})
+
+indexBtn.addEventListener('click', function () {
+    overlay.style.display = 'none'
+    summary.style.display = 'none'
+})

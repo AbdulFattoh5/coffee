@@ -98,6 +98,7 @@ body {
     border-radius: 100px;
     cursor: pointer;
     transition: 0.3s;
+    display: inline-block;
 }
 
 .banner__btn:hover {
@@ -299,9 +300,10 @@ body {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    display: block;
+    display: flex;
     margin: auto;
     transition: 0.3s;
+    width: 211px;
 }
 
 .work__btn:hover {
@@ -514,7 +516,7 @@ body {
     font-weight: 700;
 }
 
-.accordion{
+.accordion {
     max-width: 660px;
 }
 
@@ -614,13 +616,108 @@ body {
     display: block;
 }
 
-.accordion__right{
+.accordion__right {
     position: absolute;
     right: 0;
 }
 
-.accordion__left{
+.accordion__left {
     position: absolute;
     left: 0;
     bottom: 0px;
+}
+
+.summary {
+    max-width: 561px;
+    width: 100%;
+    background: #F8F8F2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    z-index: 99;
+    display: none;
+}
+
+.summary__h {
+    background: #C99B67;
+    padding: 19px 0 19px 30px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.summary__overlay {
+    background: rgba(0, 0, 0, 0.50);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.summary__order {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.summary__desc {
+    padding: 0 30px;
+    margin: 50px 0;
+}
+
+.summary__order {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+
+.summary__green {
+    color: #0a775f;
+}
+
+.summary__p {
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.summary__main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary__total {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.summary__btn {
+    padding: 16px 24px;
+    border-radius: 100px;
+    background: #0A775F;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.summary__btn:hover{
+    color:#0A775F;
+    background: white;
 }
