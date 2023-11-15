@@ -528,7 +528,7 @@ body {
     transition: 0.5s;
     overflow-y: auto;
     display: grid;
-    grid-template-columns: repeat(3, 208px);
+    grid-template-columns: repeat(3, 1fr);
     gap: 18px;
     margin-top: 20px;
 }
